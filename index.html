@@ -9,10 +9,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-center">Unit Converts</h1>
-    <div class="text-center bg-success" w-25>
-        <input type="text">
-        <input type="text">
+    <div class="text-center my-auto mx-auto bg-success w-25" >
+        <h1 class="text-center">Unit Converts</h1>
+        <label for="feet">Feet</label>
+        <input id="feet" type="text"><br>
+        <label for="feet">Inch</label>
+        <input id="inch" type="text">
     </div>
+
+
+    <script>
+        let feet = document.getElementById("feet");
+        let inch = document.getElementById("inch");
+        feet.addEventListener('input', function()  {
+            // console.log("click")
+            let f = this.value;
+            let i = f*12;
+            inch.value = i;
+
+        });
+    </script>
 </body>
 </html>
