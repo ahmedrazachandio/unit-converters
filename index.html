@@ -19,15 +19,19 @@
 
 
     <script>
+        // Ahmed Raza
         let feet = document.getElementById("feet");
         let inch = document.getElementById("inch");
+        // feet to inch coverter
+
         feet.addEventListener('input', function()  {
             // console.log("click")
             let f = this.value;
             let i = f*12;
             inch.value = i;
-
         });
+
+        // inch to feet coverter
         inch.addEventListener('input', function()  {
             // console.log("click")
             let i = this.value;
