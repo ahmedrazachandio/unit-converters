@@ -28,6 +28,13 @@
             inch.value = i;
 
         });
+        inch.addEventListener('input', function()  {
+            // console.log("click")
+            let i = this.value;
+            let f = i/12;
+            feet.value = f;
+
+        });
     </script>
 </body>
 </html>
