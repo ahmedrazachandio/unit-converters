@@ -1,0 +1,16 @@
+{
+  "background_color": "#0882e9",
+  "description": "Unit Converter",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Unit Converter",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Unit Converter",
+  "start_url": "/",
+  "theme_color": "#06b6f1",
+  "categories": [],
+  "screenshots": [],
+  "icons": [],
+  "shortcuts": []
+}
